@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="ru">
+
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -19,9 +21,11 @@
 
 <body>
 
-	<div class="main-teni"></div>
+	<div class="main-teni" id="main-teni"></div>
 
 	<img src="dist/img/bg5.jpg" alt="img" class="main-img">
+
+
 		
 	<main class="main-wrapper column df">
 
@@ -29,10 +33,10 @@
 
 			<div class="header-wrapper df">
 
-				<div class="logo center df"><h2 class="logo-h2">Z</h2> 
+				<div class="animated lightSpeedIn logo center df"><h2 id="logo" class="logo-h2 animated bounceIn">Z</h2> 
 				</div>
 
-				<nav class="menu df">
+				<nav class="animated fadeInLeftBig menu df" id="menu">
 					<ul class="ul-menu df">
 						<li class="li_punkt df" id="li_punkt"><a href="#section1" class="center df">Главная</a></li>
 						<li class="li_punkt df" id="li_punkt"><a href="#section2" class="center df">Я</a></li>
@@ -42,6 +46,8 @@
 						<li class="li_punkt df" id="li_punkt"><a href="#section6" class="center df">Контакт</a></li>
 					</ul>
 				</nav>
+
+				<div class="navBurger" role="navigation" id="navToggle"></div>
 
 			</div>
 
@@ -56,18 +62,17 @@
 					<span class="strela2" id="strela2"></span> 
 				</a>
 
-				
-
-				<section class="section section1 column center df" name="section1" id="section1">
+				<section class="section section1 column center df
+				animated fadeInDown" name="section1" id="section1">
 					<div class="teni"></div>
 					<h1 class="s1-h1">Web Deweloper</h1>
-					<p class="s1-p">Я не работаю<br> Я занимаясь любимым делом</p>
+					<p class="s1-p">Я занимаясь любимым делом</p> 
 
-				</section>
-
+				</section> 
+					
 				<section class="section section2 center df" name="section2" id="section2"> 
 
-					<div class="s2-bloc1 senter df">
+					<div class="wow rollIn s2-bloc1 senter df">
 						<h2 class="s2-h2">Я</h2> 
 					</div> 
 
@@ -76,7 +81,9 @@
 					</div>
 
 				</section> 
+				
 				<section class="section section3 center df" name="section3" id="section3">
+					 
 					<h2 class="s3-h2">Scil</h2>
 				</section>
 
@@ -84,8 +91,10 @@
 					<h2 class="s4-h2">Portfolio</h2>
 				</section>
 
-				<section class="section section5 center df" name="section5" id="section5">
+				<section class="section section5 center column df" name="section5" id="section5">
 					<h2 class="s5-h2">Технологии</h2>
+
+
 				</section>
 
 				<section class="section section6 df" name="section6" id="section6">
@@ -106,7 +115,7 @@
 
 					        <div class="field df">
 					            <label for="message"></label>
-					            <textarea id="message" name="message" type="text" placeholder="   Опишите заказ" cols="30" rows="10" class="textarea"></textarea>
+					            <textarea id="message" name="message" type="text" placeholder="   Подробности" cols="30" rows="10" class="textarea"></textarea>
 					        </div> 
 
 					    </div>
@@ -121,19 +130,15 @@
 
 						</div>
 
-
 					</form> 
 						
-					
-					
-
 				</section> 
 
 			</div>
 
 		</div>		
 		
-		<footer class="footer center df"> 
+		<footer class="footer df"> 
 
 			<div class="footer-wrapper df"> 
 				 ТФ: +375 (029) 533-49-78 
